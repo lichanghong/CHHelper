@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2002F8CDD0A4DA6B806EF0 /* libPods-CHFirim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F617980197A0225FA978B963 /* libPods-CHFirim.a */; };
+		950B35871EEEA22E0091B739 /* AppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B35861EEEA22E0091B739 /* AppItem.m */; };
+		950B358A1EEF95BD0091B739 /* HeaderWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B35891EEF95BD0091B739 /* HeaderWebView.m */; };
+		950B358D1EEFC7240091B739 /* CHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B358C1EEFC7240091B739 /* CHDetailViewController.m */; };
+		950B35901EEFEE480091B739 /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B358F1EEFEE480091B739 /* SettingItem.m */; };
+		950B35931EEFF0D50091B739 /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B35921EEFF0D50091B739 /* TableHeaderView.m */; };
+		950B35971EEFF1B70091B739 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B35951EEFF1B70091B739 /* TableViewCell.m */; };
+		950B35981EEFF1B70091B739 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950B35961EEFF1B70091B739 /* TableViewCell.xib */; };
+		950B359C1EF0CF720091B739 /* UMengManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B359B1EF0CF720091B739 /* UMengManager.m */; };
+		952B26BA1EF3F6EF000600D7 /* CHShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 952B26B91EF3F6EF000600D7 /* CHShareView.m */; };
+		952B26C11EF64963000600D7 /* CHADManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 952B26C01EF64963000600D7 /* CHADManager.m */; };
+		952B27A31EFA1AB4000600D7 /* YMADManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 952B27A21EFA1AB4000600D7 /* YMADManager.m */; };
+		9546EDD11EFE589300F128C3 /* CHVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9546EDD01EFE589300F128C3 /* CHVCManager.m */; };
+		95D92F231EEE6FCF000F3FF0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D92F221EEE6FCF000F3FF0 /* WebKit.framework */; };
+		95E820701EE9633D000F9899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8206F1EE9633D000F9899 /* main.m */; };
+		95E820731EE9633D000F9899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E820721EE9633D000F9899 /* AppDelegate.m */; };
+		95E820791EE9633D000F9899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E820771EE9633D000F9899 /* Main.storyboard */; };
+		95E8207B1EE9633D000F9899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8207A1EE9633D000F9899 /* Assets.xcassets */; };
+		95E8207E1EE9633D000F9899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E8207C1EE9633D000F9899 /* LaunchScreen.storyboard */; };
+		95E820871EE964E5000F9899 /* CHHomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E820861EE964E5000F9899 /* CHHomeCollectionViewController.m */; };
+		95E8208A1EE96757000F9899 /* CHWebCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E820891EE96757000F9899 /* CHWebCollectionViewCell.m */; };
+		95FDEBB61EFB627300DAA337 /* CHWXShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDEBB51EFB627300DAA337 /* CHWXShare.m */; };
+		95FDEBB91EFB99A900DAA337 /* CHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDEBB81EFB99A900DAA337 /* CHRootViewController.m */; };
+		95FDEBBD1EFBA34100DAA337 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FDEBBC1EFBA34100DAA337 /* DEMOLeftMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		135063D434D266ABEC596097 /* Pods-CHFirim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHFirim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHFirim/Pods-CHFirim.debug.xcconfig"; sourceTree = "<group>"; };
+		2B31948077FC519EDC2C133B /* Pods-CHFirim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHFirim.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHFirim/Pods-CHFirim.release.xcconfig"; sourceTree = "<group>"; };
+		950B35851EEEA22E0091B739 /* AppItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppItem.h; sourceTree = "<group>"; };
+		950B35861EEEA22E0091B739 /* AppItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppItem.m; sourceTree = "<group>"; };
+		950B35881EEF95BD0091B739 /* HeaderWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderWebView.h; sourceTree = "<group>"; };
+		950B35891EEF95BD0091B739 /* HeaderWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderWebView.m; sourceTree = "<group>"; };
+		950B358B1EEFC7240091B739 /* CHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDetailViewController.h; sourceTree = "<group>"; };
+		950B358C1EEFC7240091B739 /* CHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDetailViewController.m; sourceTree = "<group>"; };
+		950B358E1EEFEE480091B739 /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
+		950B358F1EEFEE480091B739 /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
+		950B35911EEFF0D50091B739 /* TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeaderView.h; sourceTree = "<group>"; };
+		950B35921EEFF0D50091B739 /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderView.m; sourceTree = "<group>"; };
+		950B35941EEFF1B70091B739 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		950B35951EEFF1B70091B739 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		950B35961EEFF1B70091B739 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		950B35991EF0CEF90091B739 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		950B359A1EF0CF720091B739 /* UMengManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMengManager.h; sourceTree = "<group>"; };
+		950B359B1EF0CF720091B739 /* UMengManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMengManager.m; sourceTree = "<group>"; };
+		952B26B81EF3F6EF000600D7 /* CHShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHShareView.h; sourceTree = "<group>"; };
+		952B26B91EF3F6EF000600D7 /* CHShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHShareView.m; sourceTree = "<group>"; };
+		952B26BF1EF64963000600D7 /* CHADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHADManager.h; sourceTree = "<group>"; };
+		952B26C01EF64963000600D7 /* CHADManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHADManager.m; sourceTree = "<group>"; };
+		952B27A11EFA1AB4000600D7 /* YMADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMADManager.h; sourceTree = "<group>"; };
+		952B27A21EFA1AB4000600D7 /* YMADManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMADManager.m; sourceTree = "<group>"; };
+		9546EDCF1EFE589300F128C3 /* CHVCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHVCManager.h; sourceTree = "<group>"; };
+		9546EDD01EFE589300F128C3 /* CHVCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHVCManager.m; sourceTree = "<group>"; };
+		95D92F221EEE6FCF000F3FF0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		95E8206B1EE9633D000F9899 /* CHFirim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHFirim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E8206F1EE9633D000F9899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95E820711EE9633D000F9899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95E820721EE9633D000F9899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95E820781EE9633D000F9899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E8207A1EE9633D000F9899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95E8207D1EE9633D000F9899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95E8207F1EE9633D000F9899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E820851EE964E5000F9899 /* CHHomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHomeCollectionViewController.h; sourceTree = "<group>"; };
+		95E820861EE964E5000F9899 /* CHHomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHomeCollectionViewController.m; sourceTree = "<group>"; };
+		95E820881EE96757000F9899 /* CHWebCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWebCollectionViewCell.h; sourceTree = "<group>"; };
+		95E820891EE96757000F9899 /* CHWebCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWebCollectionViewCell.m; sourceTree = "<group>"; };
+		95FDEBB41EFB627300DAA337 /* CHWXShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWXShare.h; sourceTree = "<group>"; };
+		95FDEBB51EFB627300DAA337 /* CHWXShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWXShare.m; sourceTree = "<group>"; };
+		95FDEBB71EFB99A900DAA337 /* CHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRootViewController.h; sourceTree = "<group>"; };
+		95FDEBB81EFB99A900DAA337 /* CHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRootViewController.m; sourceTree = "<group>"; };
+		95FDEBBB1EFBA34100DAA337 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
+		95FDEBBC1EFBA34100DAA337 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
+		95FDEBC41EFBC27000DAA337 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F617980197A0225FA978B963 /* libPods-CHFirim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHFirim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E820681EE9633D000F9899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D92F231EEE6FCF000F3FF0 /* WebKit.framework in Frameworks */,
+				3F2002F8CDD0A4DA6B806EF0 /* libPods-CHFirim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952B26C21EF77198000600D7 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				950B35991EF0CEF90091B739 /* Constants.h */,
+				952B26B81EF3F6EF000600D7 /* CHShareView.h */,
+				952B26B91EF3F6EF000600D7 /* CHShareView.m */,
+				95FDEBB41EFB627300DAA337 /* CHWXShare.h */,
+				95FDEBB51EFB627300DAA337 /* CHWXShare.m */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		952B26C31EF771C3000600D7 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				950B35881EEF95BD0091B739 /* HeaderWebView.h */,
+				950B35891EEF95BD0091B739 /* HeaderWebView.m */,
+				95E820881EE96757000F9899 /* CHWebCollectionViewCell.h */,
+				95E820891EE96757000F9899 /* CHWebCollectionViewCell.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		952B26C41EF771FA000600D7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				950B35941EEFF1B70091B739 /* TableViewCell.h */,
+				950B35951EEFF1B70091B739 /* TableViewCell.m */,
+				950B35961EEFF1B70091B739 /* TableViewCell.xib */,
+				950B358B1EEFC7240091B739 /* CHDetailViewController.h */,
+				950B358C1EEFC7240091B739 /* CHDetailViewController.m */,
+				950B35911EEFF0D50091B739 /* TableHeaderView.h */,
+				950B35921EEFF0D50091B739 /* TableHeaderView.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		952B27A01EFA1A8D000600D7 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				952B27A11EFA1AB4000600D7 /* YMADManager.h */,
+				952B27A21EFA1AB4000600D7 /* YMADManager.m */,
+				950B359A1EF0CF720091B739 /* UMengManager.h */,
+				950B359B1EF0CF720091B739 /* UMengManager.m */,
+				952B26BF1EF64963000600D7 /* CHADManager.h */,
+				952B26C01EF64963000600D7 /* CHADManager.m */,
+			);
+			name = AD;
+			sourceTree = "<group>";
+		};
+		95E820621EE9633D000F9899 = {
+			isa = PBXGroup;
+			children = (
+				95E8206D1EE9633D000F9899 /* CHFirim */,
+				95E8206C1EE9633D000F9899 /* Products */,
+				E22A6D38027F7AA930D929B2 /* Pods */,
+				A68F0301D98DD82A9FB0BF9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95E8206C1EE9633D000F9899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E8206B1EE9633D000F9899 /* CHFirim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E8206D1EE9633D000F9899 /* CHFirim */ = {
+			isa = PBXGroup;
+			children = (
+				95FDEBBA1EFBA32B00DAA337 /* Left */,
+				952B27A01EFA1A8D000600D7 /* AD */,
+				952B26C41EF771FA000600D7 /* Detail */,
+				952B26C31EF771C3000600D7 /* Web */,
+				952B26C21EF77198000600D7 /* Share */,
+				95E820711EE9633D000F9899 /* AppDelegate.h */,
+				95E820721EE9633D000F9899 /* AppDelegate.m */,
+				95E820771EE9633D000F9899 /* Main.storyboard */,
+				95FDEBB71EFB99A900DAA337 /* CHRootViewController.h */,
+				95FDEBB81EFB99A900DAA337 /* CHRootViewController.m */,
+				9546EDCF1EFE589300F128C3 /* CHVCManager.h */,
+				9546EDD01EFE589300F128C3 /* CHVCManager.m */,
+				950B358E1EEFEE480091B739 /* SettingItem.h */,
+				950B358F1EEFEE480091B739 /* SettingItem.m */,
+				95E820851EE964E5000F9899 /* CHHomeCollectionViewController.h */,
+				95E820861EE964E5000F9899 /* CHHomeCollectionViewController.m */,
+				950B35851EEEA22E0091B739 /* AppItem.h */,
+				950B35861EEEA22E0091B739 /* AppItem.m */,
+				95FDEBC41EFBC27000DAA337 /* Header.h */,
+				95E8206E1EE9633D000F9899 /* Supporting Files */,
+			);
+			path = CHFirim;
+			sourceTree = "<group>";
+		};
+		95E8206E1EE9633D000F9899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95E8207A1EE9633D000F9899 /* Assets.xcassets */,
+				95E8207C1EE9633D000F9899 /* LaunchScreen.storyboard */,
+				95E8207F1EE9633D000F9899 /* Info.plist */,
+				95E8206F1EE9633D000F9899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95FDEBBA1EFBA32B00DAA337 /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				95FDEBBB1EFBA34100DAA337 /* DEMOLeftMenuViewController.h */,
+				95FDEBBC1EFBA34100DAA337 /* DEMOLeftMenuViewController.m */,
+			);
+			name = Left;
+			sourceTree = "<group>";
+		};
+		A68F0301D98DD82A9FB0BF9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D92F221EEE6FCF000F3FF0 /* WebKit.framework */,
+				F617980197A0225FA978B963 /* libPods-CHFirim.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22A6D38027F7AA930D929B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				135063D434D266ABEC596097 /* Pods-CHFirim.debug.xcconfig */,
+				2B31948077FC519EDC2C133B /* Pods-CHFirim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E8206A1EE9633D000F9899 /* CHFirim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E820821EE9633D000F9899 /* Build configuration list for PBXNativeTarget "CHFirim" */;
+			buildPhases = (
+				09808B10299070C109916D13 /* [CP] Check Pods Manifest.lock */,
+				95E820671EE9633D000F9899 /* Sources */,
+				95E820681EE9633D000F9899 /* Frameworks */,
+				95E820691EE9633D000F9899 /* Resources */,
+				93BB93F965F4FDF180CB2743 /* [CP] Embed Pods Frameworks */,
+				B639D8628F26D132B6ED29F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHFirim;
+			productName = CHFirim;
+			productReference = 95E8206B1EE9633D000F9899 /* CHFirim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E820631EE9633D000F9899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lichanghong;
+				TargetAttributes = {
+					95E8206A1EE9633D000F9899 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZQQMP3TJXZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95E820661EE9633D000F9899 /* Build configuration list for PBXProject "CHFirim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E820621EE9633D000F9899;
+			productRefGroup = 95E8206C1EE9633D000F9899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E8206A1EE9633D000F9899 /* CHFirim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E820691EE9633D000F9899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E8207E1EE9633D000F9899 /* LaunchScreen.storyboard in Resources */,
+				950B35981EEFF1B70091B739 /* TableViewCell.xib in Resources */,
+				95E8207B1EE9633D000F9899 /* Assets.xcassets in Resources */,
+				95E820791EE9633D000F9899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09808B10299070C109916D13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93BB93F965F4FDF180CB2743 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHFirim/Pods-CHFirim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B639D8628F26D132B6ED29F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHFirim/Pods-CHFirim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E820671EE9633D000F9899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950B358D1EEFC7240091B739 /* CHDetailViewController.m in Sources */,
+				95E820871EE964E5000F9899 /* CHHomeCollectionViewController.m in Sources */,
+				95E820731EE9633D000F9899 /* AppDelegate.m in Sources */,
+				950B35971EEFF1B70091B739 /* TableViewCell.m in Sources */,
+				952B26C11EF64963000600D7 /* CHADManager.m in Sources */,
+				950B358A1EEF95BD0091B739 /* HeaderWebView.m in Sources */,
+				950B359C1EF0CF720091B739 /* UMengManager.m in Sources */,
+				95E8208A1EE96757000F9899 /* CHWebCollectionViewCell.m in Sources */,
+				950B35901EEFEE480091B739 /* SettingItem.m in Sources */,
+				95E820701EE9633D000F9899 /* main.m in Sources */,
+				952B26BA1EF3F6EF000600D7 /* CHShareView.m in Sources */,
+				9546EDD11EFE589300F128C3 /* CHVCManager.m in Sources */,
+				95FDEBB61EFB627300DAA337 /* CHWXShare.m in Sources */,
+				95FDEBBD1EFBA34100DAA337 /* DEMOLeftMenuViewController.m in Sources */,
+				950B35871EEEA22E0091B739 /* AppItem.m in Sources */,
+				952B27A31EFA1AB4000600D7 /* YMADManager.m in Sources */,
+				950B35931EEFF0D50091B739 /* TableHeaderView.m in Sources */,
+				95FDEBB91EFB99A900DAA337 /* CHRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95E820771EE9633D000F9899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E820781EE9633D000F9899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95E8207C1EE9633D000F9899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E8207D1EE9633D000F9899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E820801EE9633D000F9899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95E820811EE9633D000F9899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95E820831EE9633D000F9899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135063D434D266ABEC596097 /* Pods-CHFirim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CHFirim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95E820841EE9633D000F9899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B31948077FC519EDC2C133B /* Pods-CHFirim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CHFirim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E820661EE9633D000F9899 /* Build configuration list for PBXProject "CHFirim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E820801EE9633D000F9899 /* Debug */,
+				95E820811EE9633D000F9899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E820821EE9633D000F9899 /* Build configuration list for PBXNativeTarget "CHFirim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E820831EE9633D000F9899 /* Debug */,
+				95E820841EE9633D000F9899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E820631EE9633D000F9899 /* Project object */;
+}

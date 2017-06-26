@@ -1,0 +1,44 @@
+PODS:
+  - Alert (1.0.4)
+  - CHBaseUtil (0.0.5)
+  - CHShareUtil (0.0.5)
+  - EAIntroView (2.10.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - QRCodeReaderViewController (4.0.2)
+  - RESideMenu (4.0.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UMengAnalytics (4.2.4)
+  - umvideosdk (4.1.4)
+  - WechatOpenSDK (1.7.7)
+
+DEPENDENCIES:
+  - Alert (~> 1.0.4)
+  - CHBaseUtil (~> 0.0.5)
+  - CHShareUtil (~> 0.0.5)
+  - EAIntroView (~> 2.10.0)
+  - QRCodeReaderViewController (~> 4.0.2)
+  - RESideMenu (~> 4.0.7)
+  - SDWebImage (~> 3.8)
+  - UMengAnalytics
+  - umvideosdk (~> 4.1.4)
+  - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  Alert: b3b0b031ad786bffc6b4d86a75c5f88752aae0e7
+  CHBaseUtil: 915475d8cee4614be5582f11b32501071eef1a28
+  CHShareUtil: 4a67a10942a10dade160935ae1e768776d9ad473
+  EAIntroView: 3494b7bbd1212e3a4f7e8d16194a1b00e7b9abb2
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  QRCodeReaderViewController: e8f27d035b3e72b1d4b1c61ff66458287e3be0ff
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  umvideosdk: bf6cffa0f12e36c85ffa523ddad2bae8b12812d5
+  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+
+PODFILE CHECKSUM: ad7cc5269650996b685fa1921e0590bdc47a909f
+
+COCOAPODS: 1.2.1
